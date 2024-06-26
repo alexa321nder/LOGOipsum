@@ -1,0 +1,915 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "DM Sans", sans-serif;
+}
+
+main {
+  /* width: 850px; */
+  /* background-color: white; */
+}
+
+Header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+  padding: 24px 0;
+}
+ nav {
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: black;
+}
+.signup {
+  padding: 15px 50px;
+  background-color: tomato;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+Header .signup:hover {
+  background-color: blue;
+}
+
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.contents .content {
+  width: 40%;
+}
+
+.content h1 {
+  font-size: 80px;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1;
+}
+.content p {
+  color: gray;
+  font-weight: 100;
+  margin: 30px 0;
+  width: 70%;
+}
+
+.Get {
+  display: flex;
+  gap: 25px;
+  width: 80%;
+}
+
+.Get a {
+  padding: 15px 50px;
+  background-color: blue;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.Get a:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.Get img {
+  width: 45px;
+}
+
+.image {
+  width: 50%;
+}
+
+.image img {
+  width: 110%;
+}
+
+.partners {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.partners img {
+  width: 15%;
+}
+.guides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 40px;
+}
+.guides .image {
+  width: 70%;
+}
+.guides .image img {
+  width: 350px;
+}
+.guides .index {
+  width: 50%;
+}
+.guides .index h2 {
+  font-size: 60px;
+}
+
+.guides .index p {
+  font-size: 16px;
+  width: 55%;
+  color: gray;
+  margin: 20px 0;
+}
+
+.guides .index a {
+  color: blue;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.metrics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.metrics .metric {
+  width: 50%;
+}
+.metrics .metric h2 {
+  font-size: 60px;
+}
+
+.metrics .metric p {
+  color: gray;
+  width: 65%;
+  margin: 20px 0;
+}
+.metrics .metric a {
+  font-size: 14px;
+  color: blue;
+  text-decoration: none;
+}
+
+.metrics .image {
+  width: 40%;
+}
+.metrics .image img {
+  width: 300px;
+}
+
+.row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  gap: 150px;
+  margin-bottom: 120px;
+}
+.Bench {
+  width: 50%;
+}
+.row .Bench img {
+  width: 120px;
+}
+
+.row .Bench h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.row .Bench p {
+  font-size: 16px;
+  color: gray;
+}
+
+.Pricing {
+  width: 35%;
+}
+.row .Pricing img {
+  width: 120px;
+}
+
+.Pricing h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.Pricing p {
+  font-size: 16px;
+  color: gray;
+}
+.Retention {
+  width: 42%;
+}
+
+.row .Retention img {
+  width: 120px;
+}
+
+.Retention h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.Retention p {
+  font-size: 16px;
+  color: gray;
+}
+
+.forum {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.forum .gets {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.gets h1 {
+  width: 55%;
+  font-size: 60px;
+}
+
+.gets .year {
+  height: 55%;
+  width: 40%;
+  padding-left: 5px;
+  border-radius: 8px;
+}
+.gets .year a {
+  padding: 15px 50px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.gets .year a:first-child {
+  background-color: blue;
+  color: white;
+  border-radius: 10px 0 0 10px;
+}
+
+.gets .year a:last-child {
+  background-color: rgba(211, 211, 211, 0.075);
+  color: black;
+  border-radius: 0 10px 10px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.container .card {
+  width: 300px;
+  height: 350px;
+  background-color: lightgray;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container .card:hover {
+  transform: scale(1);
+  background-color: orangered;
+  color: white;
+  transition: 1s;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 100;
+  color: gray;
+  margin: 20px 0;
+}
+
+.card h1 {
+  font-size: 40px;
+  color: black;
+}
+.card h1 span {
+  font-size: 24px;
+}
+.card ul {
+  display: grid;
+  gap: 15px;
+  margin: 30px 0 30px;
+}
+.card ul li {
+  list-style: none;
+  font-size: 14px;
+  color: gray;
+  font-weight: 100;
+}
+
+.card a {
+  padding: 15px 50px;
+  background-color: white;
+  font-size: 14px;
+  color: blue;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card:hover h3 {
+  color: white;
+  transition: 1s;
+}
+.card:hover h1 {
+  color: white;
+  transition: 1s;
+}
+
+.card:hover ul li {
+  color: white;
+  transition: 1s;
+}
+
+.card:hover a {
+  background-color: rgba(165, 42, 42, 0.774);
+  color: white;
+  transition: 1s;
+}
+@media screen and (max-width: 1024px) {
+  Header {
+    width: 95%;
+  }
+  .contents {
+    width: 90%;
+  }
+  .contents .content {
+    width: 70%;
+  }
+  .content h1 {
+    font-size: 50px;
+  }
+  .content p {
+  }
+  .partners {
+    width: 90%;
+  }
+
+  .partners img {
+    width: 10%;
+  }
+
+  .guides {
+    width: 90%;
+  }
+
+  .guides .image {
+    width: 45%;
+  }
+
+  .guides .image img {
+    width: 200px;
+  }
+
+  .guides .index {
+    width: 50%;
+  }
+
+  .index h2 {
+    font-size: 50px;
+  }
+
+  .index p {
+    font-size: 14px;
+  }
+
+  .metrics {
+    width: 90%;
+  }
+
+  .metrics .metric {
+    width: 45%;
+  }
+
+  .metrics .metric h2 {
+    font-size: 50px;
+  }
+
+  .metric p {
+    font-size: 14px;
+  }
+
+  .metrics image {
+    width: 45%;
+  }
+
+  .metrics .image img {
+    width: 200px;
+  }
+
+  .Bench img {
+    width: 100px;
+  }
+
+  .Bench p {
+    font-size: 12px;
+  }
+  .forum {
+    width: 90%;
+  }
+
+  .forum .gets {
+    width: 90%;
+  }
+
+  .forum .gets h1 {
+    font-size: 30px;
+  }
+  .gets .year {
+    width: 50%;
+    height: 75%;
+  }
+  .gets .year a {
+    padding: 15px 50px;
+  }
+  .container {
+    width: 90%;
+    margin-bottom: 70px;
+    gap: 10px;
+  }
+
+  .container .card {
+    width: 70%;
+  }
+  .card h3 {
+    font-size: 14px;
+  }
+
+  .card h1 {
+    font-size: 33px;
+  }
+
+  .card li {
+    font-size: 12px;
+  }
+
+  .card a {
+    padding: 10px 50px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  Header {
+    width: 90%;
+    /* margin-left: 50px; */
+  }
+
+  Header .logo img {
+    width: 80%;
+  }
+.mobile-nav{
+  gap: 20px;
+}
+ .mobile-nav a{
+    font-size: 16px;
+  }
+  .signup {
+    display: block;
+    width: 25%;
+    font-size: 14px;
+  }
+
+  .contents {
+    width: 90%;
+  }
+
+  .contents .content {
+    width: 100%;
+  }
+  .content h1 {
+    font-size: 35px;
+  }
+
+  .row .Bench p {
+    font-size: 12px;
+  }
+
+  .row .Pricing p {
+    font-size: 12px;
+  }
+
+  .row .Retention p {
+    font-size: 12px;
+  }
+  .forum {
+    width: 90%;
+  }
+
+  .gets h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .gets .year {
+    width: 100%;
+  }
+  .container {
+    margin-bottom: 70px;
+  }
+  .card a {
+    padding: 15px 50px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  Header {
+    width: 90%;
+    margin-bottom: 70px;
+  }
+
+  .mobile-nav{
+    background-color: white;
+    height: 100vh;
+    width: 80%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: 1s ease;
+  }
+.mobile-nav.active {
+  right: 0;
+}
+  .signup{
+    display: none;
+  }
+
+  .ham-burger {
+    padding: 1rem;
+    display: flex;
+    background-color: white;
+  }
+  .ham-menu{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+  }
+  .ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s ease;
+  }
+  .ham-menu span:nth-child(1) {
+    top: 30%;
+  }
+  .ham-menu span:nth-child(3) {
+    top: 70%;
+  }
+  .ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .ham-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, 50%) rotate(-45deg);
+  }
+  .contents {
+    flex-direction: column;
+    width: 90%;
+    gap: 100px;
+  }
+
+  .contents .content {
+    width: 90%;
+  }
+
+  .content h1 {
+    font-size: 40px;
+  }
+  .content p {
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .Get {
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .image img {
+    width: 100%;
+  }
+
+  .partners {
+    width: 90%;
+    margin-bottom: 120px;
+  }
+  .partners img {
+    width: 15%;
+  }
+
+  .guides {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 70px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .guides .image img {
+    width: 250px;
+  }
+
+  .guides .index {
+    width: 70%;
+    margin-bottom: 70px;
+  }
+
+  .guides .index h2 {
+    font-size: 45px;
+    font-weight: 500;
+  }
+  .guides .index p {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .guides .index a {
+    font-size: 16px;
+  }
+
+  .metrics {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 70px;
+    text-align: center;
+  }
+
+  .metrics .metric {
+    width: 70%;
+    text-align: center;
+  }
+
+  .metrics .metric h2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .metrics .metric p {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .metrics .metric a {
+    font-size: 16px;
+  }
+
+  .metrics .image img {
+    width: 250px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .row {
+    width: 90%;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .row .Bench {
+    width: 70%;
+  }
+
+  .row .Pricing {
+    width: 70%;
+  }
+
+  .row .Retention {
+    width: 70%;
+  }
+
+  .forum .gets {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 90px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .forum .gets h1 {
+    font-size: 35px;
+  }
+
+  .gets .year {
+    width: 75%;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .container {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin: 0 auto;
+  }
+
+  .card a {
+    padding: 15px 80px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  Header {
+    width: 90%;
+  }
+
+  Header .logo img {
+    width: 70%;
+  }
+  .ham-menu span{
+    width: 70%;
+  }
+  .contents {
+    width: 90%;
+  }
+  .contents .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .content p {
+    width: 100%;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .Get {
+    margin: 0 auto;
+  }
+ .Get a{
+  padding: 15px 50px;
+  font-size: 10px;
+  text-align: center;
+ }
+  .guides {
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+ .guides .image {
+    width: 100%;
+  }
+  .guides .image img {
+    width: 250px;
+  }
+
+  .guides .index {
+    width: 80%;
+  }
+  .guides .index h2 {
+    font-size: 30px;
+  }
+
+  .guides .index p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .guides .index a {
+    font-size: 14px;
+  }
+
+  .metrics {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .metrics .metric {
+    width: 80%;
+    text-align: center;
+  }
+
+  .metrics .metric h2 {
+    font-size: 30px;
+  }
+  .metrics .metric p {
+    font-size: 14px;
+  }
+
+  .metrics .metric a {
+    font-size: 14px;
+  }
+
+  .metrics .image{
+    width: 100%;
+  }
+  .metrics .image img {
+    width: 250px;
+  }
+
+  .forum .gets {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .forum .gets h1 {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .gets .year {
+    width: 100%;
+  }
+  .gets .year a{
+    font-size: 10px;
+  }
+  .container .card {
+    gap: 10px;
+  }
+  .card a {
+    padding: 15px 50px;
+  }
+}
